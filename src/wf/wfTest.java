@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+
 public class wfTest {
 
 	wf wwf = new wf();
@@ -23,6 +24,14 @@ public class wfTest {
 
 	@Test
 	public void testJian() {
+		//fail("尚未实现");
+		int x;
+		x=wwf.jian(4, 2);
+		assertEquals(2, x);
+	}
+
+	@Test
+	public void testJian1() {
 		//fail("尚未实现");
 		int x;
 		x=wwf.jian(4, 2);
